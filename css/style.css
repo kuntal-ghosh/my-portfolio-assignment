@@ -1,0 +1,134 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.introduction-block{
+   
+    text-align: justify;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom:20px ;
+}
+
+h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+p{
+    margin-bottom: 25px;
+}
+.half-divider{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 2%;
+    
+}
+.img-padding{
+    
+}
+
+.half-divider a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(orange,tomato);
+    font: 700;
+    color: white;
+    border-radius: 5px;
+}
+.half-divider img{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.float-clear{
+    clear: both;
+}
+.about-me{
+    margin-top: 2%;
+    height: 50vh;
+    /* background-color: whitesmoke; */
+    
+}
+.about-me-text{
+  /* margin: auto; */
+  vertical-align: middle;
+  margin-top: 50px;
+
+}
+
+.my-latest-work{
+    margin-top: 20px;
+    text-align: center;
+}
+.work-samples{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 2%;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.work-sample{
+    flex: 1;
+    /* padding: 20px; */
+    cursor: pointer;
+    
+}
+.work-sample img{
+    width: 80%;
+}
+.work-sample :hover{
+    opacity: .8;
+    /* width: 100%; */
+}
+.client-feedback{
+    margin-top: 5%;
+    text-align: center;
+}
+.client-feedback h3{
+    margin-top: 50px;
+}
+.client-feedback h5{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.client-feedback h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: .5;
+    }
+
+.client-feedback .contact{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    padding: 30px 50px;
+    background-image: linear-gradient(orange,tomato);
+    font: 700;
+    color: white;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
